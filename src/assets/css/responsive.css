@@ -1,0 +1,186 @@
+/* Break Point 1200px */
+@media only screen and (max-width: 1200px) {
+  .wrapWidth {
+    width: 100%;
+    padding: 0px 2.2%;
+  }
+
+  .faq-section .wrapper .list {
+    padding-right: 0px;
+  }
+}
+
+/* Break Point 1024px */
+@media only screen and (max-width: 1024px) {
+  .hero-section {
+  }
+
+  .home-page .hero-section .left-side,
+  .work-step-section .left-side {
+    padding-right: 20px;
+  }
+
+  .home-page .hero-section .left-side .slogn {
+    font-size: 62px;
+  }
+
+  .home-page .hero-section .left-side .text,
+  .work-step-section .left-side .text {
+    font-size: 16px;
+    padding-right: 0px;
+  }
+
+  .work-step-section .right-side .vector,
+  .home-page .hero-section .right-side .vector {
+    height: 480px;
+  }
+
+  .work-step-section .right-side .vector.rarity {
+    height: 350px;
+  }
+
+  .work-step-section.vector-left-side .left-side {
+    padding-left: 20px;
+  }
+
+  .bg-transparent-text {
+    font-size: 240px;
+  }
+
+  .bg-transparent-text.play-to-earn {
+    font-size: 220px;
+  }
+}
+
+/* Break Point 768px */
+@media only screen and (max-width: 768px) {
+  .home-page .hero-section .wrapper {
+    flex-direction: column;
+  }
+
+  .work-step-section .left-side {
+    padding-right: 0px !important;
+    padding-bottom: 40px;
+    padding-top: 60px;
+  }
+
+  .home-page .hero-section .left-side .slogn,
+  .work-step-section .left-side .slogn {
+    text-align: center;
+  }
+
+  .home-page .hero-section .left-side .text,
+  .work-step-section .left-side .text {
+    text-align: center;
+    margin-top: 14px;
+  }
+
+  .work-step-section .wrapper {
+    flex-direction: column;
+  }
+
+  .work-step-section .right-side {
+    min-height: 480px;
+  }
+
+  .work-step-section.vector-left-side .wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .bg-transparent-text {
+    font-size: 140px;
+
+    font-weight: bold;
+  }
+
+  .bg-transparent-text.play-to-earn {
+    font-size: 100px;
+
+    font-weight: bold;
+  }
+}
+
+/* Break Point 480px */
+@media only screen and (max-width: 480px) {
+  .home-page .hero-section .left-side .slogn {
+    font-size: 38px;
+  }
+
+  .home-page .hero-section .left-side .text,
+  .work-step-section .left-side .text {
+    font-size: 14px;
+  }
+
+  .work-step-section,
+  .home-page .hero-section {
+    min-height: auto;
+  }
+
+  .work-step-section .left-side {
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+
+  .work-step-section .right-side {
+    min-height: 320px;
+  }
+
+  .work-step-section .right-side .vector,
+  .home-page .hero-section .right-side .vector {
+    height: 320px;
+  }
+
+  .work-step-section .right-side .vector.rarity {
+    height: 300px;
+  }
+
+  .how-it-works .wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .work-step-section .wrapper {
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+
+  .how-it-works .wrapper .title {
+    font-size: 32px;
+  }
+
+  .work-step-section .left-side .slogn {
+    font-size: 26px;
+  }
+
+  .bg-transparent-text {
+    font-size: 60px;
+  }
+
+  .bg-transparent-text.play-to-earn {
+    font-size: 40px;
+  }
+
+  .faq-section .wrapper .title {
+    font-size: 26px;
+  }
+
+  .faq-section .wrapper .block .label {
+    font-size: 20px;
+  }
+
+  .faq-section .wrapper .block .text {
+    font-size: 14px;
+  }
+
+  .join-section .wrapper .title {
+    font-size: 26px;
+  }
+
+  .ReactModal__Content {
+    width: 90%;
+  }
+
+  .custom-modal {
+    width: 100%;
+  }
+}
